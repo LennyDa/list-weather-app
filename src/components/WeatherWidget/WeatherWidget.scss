@@ -1,0 +1,46 @@
+.weather-info-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0;
+
+  .temperature-container {
+    display: flex;
+    justify-content: center;
+
+    &__temperature-by-type {
+      font-size: 24px;
+      font-weight: 600;
+
+      .hide {
+        display: none;
+      }
+    }
+
+    &__temperature-buttons {
+      button {
+        background-color: transparent;
+        border: none;
+        color: #C8C8C8;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 14px;
+
+        &.selected {
+          color: #fff;
+        }
+      }
+    }
+
+    &__icon {
+      font-size: 24px;
+      padding-left: 20px;
+    }
+  }
+
+  .location {
+    font-size: 14px;
+  }
+}
+
+
